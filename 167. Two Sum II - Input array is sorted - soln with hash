@@ -1,0 +1,11 @@
+class Solution(object):
+    def twoSum(self, numbers, target):
+        hmap ={}
+        
+        for k,v in enumerate(numbers):
+            n = target - numbers[k]
+            if n not in hmap:
+                hmap[v]=k
+            else:
+                return [hmap[n]+1,k+1]
+                
