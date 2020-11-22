@@ -37,4 +37,4 @@ class Solution(object):
         
         return False
         
-  Time complexity : binary search o(log(n))
+  Time complexity : m+n (row+column) 
